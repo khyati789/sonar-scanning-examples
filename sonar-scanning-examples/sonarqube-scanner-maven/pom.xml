@@ -192,19 +192,19 @@
 
 
          
-      <distributionManagement>
+<!--      <distributionManagement>
    
          <snapshotRepository>
          <id>nexus</id>
          <name>Snapshot</name>
          <url>http://localhost:8081/repository/maven-snapshots</url>
          </snapshotRepository>
-      </distributionManagement>
-    <!--        <distributionManagement>
+      </distributionManagement>-->
+            <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
         <name>cs83-pc-snapshots</name>
         <url>http://localhost:8082/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
-</distributionManagement>-->
+</distributionManagement>
 </project>
